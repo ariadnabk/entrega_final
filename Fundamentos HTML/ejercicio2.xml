@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id= "001" fecha="22/03/2018">
+	<cliente>
+		<nombre></nombre>
+		<telefono></telefono>
+	</cliente>
+	<articulos>
+		<articulo id= "1">
+			<cantidad></cantidad>
+			<descripcion></descripcion>
+			<precio_unitario></precio_unitario>
+			<precio_final></precio_final>
+		</articulo>
+		<articulo id= "2">
+			<cantidad></cantidad>
+			<descripcion></descripcion>
+			<precio_unitario></precio_unitario>
+			<precio_final></precio_final>
+		</articulo>	
+		<articulo id= "3">
+			<cantidad></cantidad>
+			<descripcion></descripcion>
+			<precio_unitario></precio_unitario>
+			<precio_final></precio_final>
+		</articulo>	
+	<precio_total></precio_total>
+     </articulos>
+</factura>

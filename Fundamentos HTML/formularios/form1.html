@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Formularios y atributos</title>
+  </head>
+  <body>
+    <form>
+    <fieldset>
+      <legend><h1>Registro en nuestra tienda</h1></legend>
+      <legend for="nombre de usuario">Nombre de usuario</legend>
+      <input type="text" name="nombre de usuario" placeholder="Ej:luis" id="nombre_de_usuario" required><br/><br/>
+      <legend for="email">Email</legend>
+      <input type="email" placeholder="Ej:luis@gmail.com" required autocomplete="email"><br/><br/>
+      <legend for="edad">Edad</legend>
+      <input type="number" placeholder="23" id="edad"><br/><br/>
+      <legend for="nacimiento">Fecha de nacimiento</legend>
+      <input type="date" placeholder="dd/mm/yyyy" required="date"><br/><br/>
+      <legend for="genero">Género</legend>
+      <input type="radio" id="genero">
+        <label>Masculino</label>
+        <option value="masculino">Masculino</option>
+      <input type="radio">
+        <label>Femenino</label>
+        <option>Femenino</option><br/><br/>
+      <legend for="recomendado por">Recomendado por</legend>
+      <select>
+        <option value="google">google</option>
+        <option value="amigos">amigos</option>
+        <option value="redes sociales">redes sociales</option>
+      </select><br/><br/>
+      <label for="comentarios">Comentarios</label><br/>
+      <textarea name="comentarios" rows="8" cols="50" placeholder="Escribe tus comentarios aqui..."></textarea><br/><br/>
+      <label for="terminos y condiciones">Acepto términos y condiciones</label><br/>
+      <input type="checkbox"   autofocus name="si_acepto" value="1" required>
+      <label for="si_acepto">Si acepto</label><br/><br/>
+      <input type="submit" name="enviar" value="Registrar">
+    </fieldset>
+    </form>
+  </body>
+</html>

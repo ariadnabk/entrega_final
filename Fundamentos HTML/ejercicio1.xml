@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+	<persona puesto= "Gerente General">
+		<nombre>Ariadna</nombre>
+		<apellidos>Barreneche Kadamani</apellidos>
+		<edad>23 años</edad>
+		<correo>ariadna.bk@icloud.com</correo>
+	</persona>
+	<persona puesto= "Gerente Producción">
+		<nombre>Gerson Julian</nombre>
+		<apellidos>Barreneche Corredor</apellidos>
+		<edad>35 años</edad>
+		<correo>gersonjbc@gmail.com</correo>
+	</persona>
+	<persona puesto= "Asistente Administrativo">
+		<nombre>Esmeralda</nombre>
+		<apellidos>Alfonso</apellidos>
+		<edad>38 años</edad>
+		<correo>esmeralda@gmail.com</correo>
+	</persona>
+</personas>
